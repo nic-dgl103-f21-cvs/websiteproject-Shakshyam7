@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DGL 103 DLU1 - Shakshyam Sapkota - Website Project -->
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "image/favicon.jpg" type = "image/x-icon">
+    <link rel="stylesheet" href="StyleContact.CSS">
+</head>
+<body>
+    <header>
+      <h1>SunitaDawadiArt</h1>
+    </header>
+    
+    <nav> 
+      <div class="menu-label">Menu</div>
+          <ul id="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    </nav>
+    <main>
+      <h2>Contact</h2>
+      
+        <p class="quote">"Art is Everywhere and Everywhere is Art"</p>
+      <div class="text">
+        <p>If you like my arts or if you have any queries please feel free to contact me.</p>
+      <blockquote>
+        <ul>
+            <li>You can contact me at <a href="mailto:sunitadaawadi.art@gmail.com">sunitadaawadi.art@gmail.com</a></li> 
+            <li>Or give me a call at <b><u>7792873646</u></b></li>
+        </ul>
+        </blockquote>
+        </div>
+        
+        <div class="wrapper-form">
+          <h2>Contact Form</h2>
+          <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" >
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" >
+        
+            <label for="email">Email <span class="label-required">* (required)</span></label>
+            <input type="email" id="email" name="email" >
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Leave A message if you have any questions about the arts." style="height:200px"></textarea>
+        
+            <div class="wrapper-button">
+              <input type="reset" value="Reset">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </div>
+        
+        </form>
+      
+        <footer>
+          <div class="wrapper">
+              copyright &copy; Sunita Dawadi. All rights Reserved
+          </div> 
+        </footer>
+        
+        <script>
+          function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+          }
+   </script> 
+        
+</body>
+</html>

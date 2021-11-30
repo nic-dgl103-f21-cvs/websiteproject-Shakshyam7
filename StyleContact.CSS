@@ -1,0 +1,200 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: sans-serif;
+color: #0a0a0a;
+margin: 0;
+}
+nav {
+
+display: flex;
+flex-direction: column;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0 ;
+padding: 0;
+flex-direction: column;
+display: none;
+}
+
+.show-items {
+display: flex;
+}
+
+nav ul li a {
+font-size: large;
+color:#0a0a0a;
+}
+
+nav {
+background-color: #e9e9e9;
+}
+
+nav .toggle {
+align-self: flex-end;
+position: absolute;
+cursor: pointer;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+nav .menu-label {
+display: none;
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+}
+
+nav ul li {
+padding-right: 200px;
+}
+
+nav .toggle {
+display: none;
+}
+
+nav li a { 
+padding: 15px;
+display: inline-block;
+text-decoration: none;
+color: #191645;
+}
+
+nav li a:hover { 
+background-color: #202222;
+color: white;
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+nav ul,
+main {
+width: 1200px;
+margin: 0 auto;
+}
+}
+
+.quote{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 75px;
+    font-style: Bold;
+    ;
+}
+.text{
+font-size: 30px;
+text-align: center;
+list-style-position: inside;
+
+}
+
+.para{
+    background-color: #8b91b1;
+}
+
+input[type="reset"] {
+color: #4819b4;
+padding: 12px 20px;
+border: 1px solid #161e96;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="reset"]:hover {
+background-color: #d1efe3;
+}
+
+input[type="submit"] {
+background-color: #2e2d8f;
+color: white;
+padding: 12px 20px;
+border: 1px solid #1e4888;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #2d228a;
+}
+
+
+.wrapper-form {
+border-radius: 5px;
+background-color: #8b91b1;
+padding: 20px;
+max-width: 600px;
+margin: 100px auto;
+}
+
+.wrapper-button {
+display: flex;
+justify-content: space-between;
+}
+
+input,
+select,
+textarea {
+font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type="email"] {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+textarea {
+font-family: sans-serif;
+}
+
+fieldset {
+margin-bottom: 16px;
+border: 1px solid #ccc;
+}
+
+.label-required {
+font-size: 0.8rem;
+color: red;
+}
+
+
+footer {
+    clear: both;
+    background-color: #e9e9e9;
+    color:#0a0a0a;
+    text-align: center;
+    margin: 0px;
+    
+  }
+ footer .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+}

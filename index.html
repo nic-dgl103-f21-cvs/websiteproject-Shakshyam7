@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DGL 103 DLU1 - Shakshyam Sapkota - Website Project -->
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "image/favicon.jpg" type = "image/x-icon">
+    <link rel="stylesheet" href="Stylehome.CSS">
+</head>
+<body>
+    <header>
+      <h1>SunitaDawadiArt</h1>   
+    </header>
+    <nav> 
+        <div class="menu-label">Menu</div>
+            <ul id="nav-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Shop.html">Shop</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    </nav>
+    <main> 
+      <article>
+        <h2>Home</h2>
+        <p class="quote">"Art is Everywhere and Everywhere is Art"</p>
+
+        <div class="pic">
+            <h2>Red Forest</h2>
+            <figure>
+            <a href="Image/Red Forest.jpeg" target="blank"><img src="Image/Red Forest.jpeg" alt="red forest" height="800"  width="700"></a>
+            </figure>
+          </div> 
+
+          <div class="pic">
+            <h2>Motherland</h2>
+            <figure>
+            <a href="Image/Motherland.jpeg" target="blank"><img src="Image/Motherland.jpeg" alt="Motherland" height="500"  width="700"></a>
+          </figure>
+        </div>
+
+        <div class="pic">
+            <h2>Sunset</h2>
+            <figure>
+            <a href="Image/Sunset.jpeg" target="blank"><img src="Image/Sunset.jpeg" alt="Sunset" height="700"  width="700"></a>
+          </figure>
+        </div>
+
+        <div class="pic">
+            <h2>Moonlight</h2>
+            <figure>
+            <a href="Image/Moonlight.jpeg" target="blank"><img src="Image/Moonlight.jpeg" alt="Moonlight" height="800"  width="700"></a>
+          </figure>
+        </div>
+
+        <div class="pic">
+            <h2>Peak of Fall</h2>
+            <figure>
+            <a href="Image/fALL.jpeg" target="blank"><img src="Image/fALL.jpeg" alt="Peak of Fall" height="700"  width="700"></a>
+          </figure>
+        </div>
+        </article>
+        </main>
+        
+        
+        <footer>
+            <div class="wrapper">
+                copyright &copy; Sunita Dawadi. All rights Reserved
+            </div> 
+          </footer>
+     
+     <script>
+            function showNav() {
+              var element = document.getElementById("nav-items");
+              element.classList.toggle("show-items");
+            }
+     </script>  
+</body>
+</html>
